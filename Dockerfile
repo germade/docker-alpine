@@ -11,3 +11,5 @@ RUN node -v
 RUN npm -v
 
 RUN apk add make
+
+RUN apk update && apk add ca-certificates && rm -rf /var/cache/apk/*
