@@ -14,3 +14,5 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; \
 RUN curl https://pyenv.run | bash
 
 RUN pip install awscli
+
+ENTRYPOINT /bin/bash

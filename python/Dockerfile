@@ -12,3 +12,5 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; \
 	rm get-pip.py
 
 RUN curl https://pyenv.run | bash
+
+ENTRYPOINT /bin/bash
